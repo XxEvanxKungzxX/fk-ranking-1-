@@ -2,6 +2,6 @@ services:
   - type: web
     name: fk-ranking-1
     env: node
-  root: .
     buildCommand: npm install
     startCommand: npm start
+    root: .
